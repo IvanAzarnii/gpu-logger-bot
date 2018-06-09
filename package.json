@@ -1,0 +1,26 @@
+{
+  "name": "gpu-logger-bot",
+  "version": "1.0.0",
+  "description": "Logs GPU information to Telegram Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "gpu",
+    "nvidia-smi",
+    "nvidia"
+  ],
+  "author": "Ivan Azarnii",
+  "license": "ISC",
+  "dependencies": {
+    "node-nvidia-smi": "^1.0.0",
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
